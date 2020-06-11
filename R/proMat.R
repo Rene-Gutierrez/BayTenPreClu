@@ -6,7 +6,7 @@
 #'   belong to the same cluster.
 #'
 #' @param sP A list containing posterior sample observations.
-#' @param n  NUmber of observations.
+#' @param n  Number of observations.
 #'
 #' @return The Probability Matrix.
 #'

@@ -83,7 +83,7 @@ PMBTC <- function(iP,
         logMar <- c(logMar, tenPrePseMar(tesCom) - tenPrePseMar(pseCov[[h]]))
       }
       logMar <- logMar + log(nL)
-      logMar <- c(logMar, log(the))
+      logMar <- c(logMar, log(theta))
       #logMar <- c(logMar, -100)
 
       ## Computes the Probability of Assignment
