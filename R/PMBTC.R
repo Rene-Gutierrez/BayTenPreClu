@@ -102,7 +102,7 @@ PMBTC <- function(iP,
     }
     ### Saves the Partition
     if(s > burnin){
-      sP[[s]] <- P
+      sP[[s - burnin]] <- P
     }
     ### Progress Bar Display
     if(progress){
